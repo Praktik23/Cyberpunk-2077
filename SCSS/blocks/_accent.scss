@@ -1,0 +1,9 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.accent {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 34px;
+    color: $color-blue;
+}

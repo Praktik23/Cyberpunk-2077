@@ -1,0 +1,54 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.footer {
+
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 13px 0;
+    }
+
+    &__images {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__legal {
+        display: flex;
+        gap: 32px;
+    }
+
+    &__license {
+        color: $color-black;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    &__confidentiality {
+        color: $color-black;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0;
+    }
+
+    &__bottom {
+        background-color: $color-black;
+        padding: 13px 0;
+    }
+
+    &__partners {
+        padding: 0;
+        margin: 0;
+        color: $color-white;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        letter-spacing: 0;
+        text-align: center;
+    }
+}

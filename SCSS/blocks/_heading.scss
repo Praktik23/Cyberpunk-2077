@@ -1,0 +1,9 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.heading {
+    font-weight: 400;
+    font-size: 62px;
+    font-family: $ff-heading;
+    line-height: 100%;
+}

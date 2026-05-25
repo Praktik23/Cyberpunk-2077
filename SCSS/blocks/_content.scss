@@ -1,0 +1,49 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.content {
+    padding: 70px 0 70px 0;
+
+    &__title {
+        margin: 0 0 25px 0;
+
+        @include vp-1023 {
+            max-width: 620px;
+        }
+    }
+
+    &__desc {
+        font-size: 18px;
+        line-height: 34px;
+        color: $color-gray;
+        margin-bottom: 60px;
+        max-width: 952px;
+
+        @include vp-1023 {
+            max-width: 788px;
+        }
+    }
+
+    &__wrapper {
+        display: grid;
+        grid-template-columns: 460px auto;
+        grid-template-rows: 196px 196px;
+        gap: 32px;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        @media(max-width: 1340px) {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 196px 424px;
+        }
+    }
+
+    &__item--position-x {
+        grid-row: span 2;
+
+        // @media(max-width: 1340px) {
+        //     grid-row: span 2;
+        // }
+    }
+}

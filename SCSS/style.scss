@@ -1,0 +1,33 @@
+/* Global */
+/* ------------------------------------ */
+@use "global/variables" as *;
+@use "global/mixins" as *;
+@use "global/normalize" as *;
+@use "global/fonts" as *;
+@use "global/reboot" as *;
+@use "global/container" as *;
+@use "global/visually-hidden" as *;
+
+
+/* Blocks */
+/* ------------------------------------ */
+@use "blocks/header";
+@use "blocks/hero";
+@use "blocks/swiper";
+@use "blocks/socials";
+@use "blocks/block-info";
+@use "blocks/content";
+@use "blocks/heading";
+@use "blocks/accent";
+@use "blocks/stock";
+@use "blocks/form";
+@use "blocks/castom-input";
+@use "blocks/agreement";
+@use "blocks/card-box";
+@use "blocks/promo-monitor";
+@use "blocks/promo-icons";
+@use "blocks/monitor-desc";
+@use "blocks/btn";
+@use "blocks/buying-game";
+@use "blocks/game-configuration";
+@use "blocks/footer";

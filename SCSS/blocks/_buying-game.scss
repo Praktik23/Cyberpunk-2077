@@ -1,0 +1,11 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.buying-game {
+    background-color: $color-black;
+
+    &__wrapper {
+        display: flex;
+        gap: 32px;
+    }
+}

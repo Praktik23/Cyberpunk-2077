@@ -1,0 +1,23 @@
+@use "../global/variables" as *;
+@use "../global/mixins" as *;
+
+.form {
+    width: 460px;
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 35px;
+    }
+
+    &__submission {
+        background-color: $color-yellow;
+        border: none;
+        padding: 19px 50px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 100%;
+        margin-bottom: 15px;
+        cursor: pointer;
+    }
+}
